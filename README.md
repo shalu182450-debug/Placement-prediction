@@ -1,23 +1,24 @@
-# PLACEMENT-PACKAGE-PREDICTION
-Placement Package Prediction System built using Python, Machine Learning, Streamlit, and Scikit-learn for predicting expected salary packages of students.
+# 🎓 Placement Package Prediction System
 
-🚀 Project Overview
+### 📝 Project Description
+The **Placement Package Prediction System** is a Machine Learning-powered web application designed to estimate a student's potential **Placement Package (in LPA - Lakhs Per Annum)** based on their **CGPA**. 
 
-The Placement Package Prediction System is a Machine Learning-based project developed to estimate the expected salary package of students during campus placements.
+The system is built using the **Linear Regression** algorithm. The model was trained on a historical placement dataset to learn the mathematical relationship between academic grades and salary outcomes. The interactive user interface was developed using the **Streamlit** framework and deployed live on the cloud.
 
-This project helps demonstrate:
+### 🚀 Key Features
+* **Real-time Prediction:** Processes user inputs instantly and delivers a package prediction within seconds.
+* **Interactive UI:** Built with Streamlit for seamless navigation on both desktop and mobile devices.
+* **Cloud Architecture:** Fully deployed on Streamlit Community Cloud, making the project publicly accessible via a web link.
 
-Data preprocessing
-Exploratory Data Analysis (EDA)
-Machine Learning model building
-Model deployment using Streamlit
-Real-time prediction through a web interface
-🛠️ Tech Stack
-Python
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
-Seaborn
-joblib
-Streamlit
+### 🛠️ Tech Stack Used
+* **Programming Language:** Python
+* **Machine Learning Library:** Scikit-Learn (Linear Regression)
+* **Model Serialization:** Joblib (`model_lr.joblib`)
+* **Web Framework:** Streamlit
+* **Deployment Platform:** Streamlit Community Cloud
+* **Version Control:** GitHub
+
+
+
+
+
